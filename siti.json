@@ -1,0 +1,39 @@
+{  
+    "Social Media": {
+        "Facebook": "https://www.facebook.com/{username}",
+        "Instagram": "https://www.instagram.com/{username}",
+        "Twitter": "https://twitter.com/{username}",
+        "TikTok": "https://www.tiktok.com/@{username}",
+        "Snapchat": "https://www.snapchat.com/add/{username}",
+        "Threads": "https://www.threads.net/@{username}",
+        "Pinterest": "https://www.pinterest.com/{username}",
+        "Reddit": "https://www.reddit.com/user/{username}",
+        "LinkedIn": "https://www.linkedin.com/in/{username}",
+        "Telegram": "https://t.me/{username}",
+        "Discord": "https://discord.com/users/{username}",
+        "BeReal": "https://bere.al/{username}"
+    },
+    "Streaming": {
+        "YouTube": "https://www.youtube.com/@{username}",
+        "Twitch": "https://www.twitch.tv/{username}",
+        "Kick": "https://www.kick.com/{username}",
+        "Vimeo": "https://vimeo.com/{username}"
+    },
+    "Gaming": {
+        "Steam": "https://steamcommunity.com/id/{username}",
+        "Xbox Live": "https://account.xbox.com/en-us/profile?gamertag={username}",
+        "PlayStation": "https://my.playstation.com/{username}",
+        "Epic Games": "https://www.epicgames.com/id/{username}",
+        "Roblox": "https://www.roblox.com/user.aspx?username={username}",
+        "Origin": "https://www.origin.com/{username}",
+        "Battle.net": "https://battle.net/{username}",
+        "Ubisoft": "https://ubisoftconnect.com/{username}",
+        "Kongregate": "https://www.kongregate.com/accounts/{username}"
+    },
+    "Music and Audio": {
+        "Spotify": "https://open.spotify.com/user/{username}",
+        "Apple Music": "https://music.apple.com/profile/{username}",
+        "Apple Music Artist": "https://music.apple.com/artist/{username}",
+        "YouTube Music": "https://music.youtube.com/channel/{username}"
+  }
+}
