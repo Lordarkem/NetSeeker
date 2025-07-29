@@ -1,39 +1,40 @@
-# NetSeeker
+# 🤖 NetSeeker – Telegram Intelligence Bot
 
-Benvenuto nel **Telegram PDF Bot**, un assistente intelligente che ti permette di:
-
-- ✍️ Ricevere input testuali dagli utenti
-- 📄 Generare file PDF personalizzati
-- 📤 Inviarli direttamente via Telegram o tramite email
-- 📲 Interagire con pulsanti inline e comandi intuitivi
-
-Questo bot è pensato per semplificare la creazione e la condivisione di documenti, tutto direttamente da Telegram.
+NetSeeker è un assistente digitale avanzato progettato per condurre ricerche online su persone e generare report PDF personalizzati. Il bot guida l’utente attraverso una conversazione interattiva, raccoglie dati, analizza piattaforme web e restituisce un documento dettagliato via Telegram o email.
 
 ---
 
-## 🧠 Come funziona
+## 🧠 Funzionalità principali
 
-Il bot guida l'utente attraverso una conversazione interattiva. Ecco il flusso tipico:
+- ✍️ Raccolta dati: nome, cognome, anno di nascita, categorie da esplorare
+- 🔍 Generazione di nickname e ricerca su decine di piattaforme (social, gaming, forum)
+- 📄 Creazione automatica di report PDF con [ReportLab](https://www.reportlab.com/)
+- 📤 Invio del report via Telegram o tramite email (SMTP)
+- 📲 Interazione tramite pulsanti inline e flusso conversazionale multilingua
+- 🗂️ Supporto per italiano, inglese, spagnolo e francese
+- 📧 Possibilità di **impostare** o **cancellare** la propria email direttamente dal bot
 
-1. L'utente avvia il bot con `/start`
-2. Inserisce un testo o una richiesta
-3. Il bot genera un PDF con `reportlab`
-4. L'utente può scegliere se scaricarlo o inviarlo via email
-5. Il bot invia il file come allegato o lo spedisce tramite SMTP
+---
+
+## 🚀 Flusso utente
+
+1. L’utente avvia il bot con `/start`
+2. Inserisce nome, cognome e anno di nascita
+3. Seleziona le categorie da analizzare
+4. Il bot genera nickname e avvia la ricerca
+5. Viene creato un report PDF con i risultati
+6. L’utente riceve il file via Telegram o email (se ha impostato l’indirizzo)
 
 ---
 
 ## 🔧 Configurazione
 
 ### 1. Ottieni il token API di Telegram
-
 - Vai su [BotFather](https://t.me/BotFather)
 - Crea un nuovo bot con `/newbot`
-- Copia il **token API** fornito
+- Copia il token fornito
 
-### 2. Inserisci le credenziali nel codice
-
-Nel file `main_telegram.py`, cerca le seguenti variabili e personalizzale:
+### 2. Inserisci le credenziali nel file `main_telegram.py`
 
 ```python
 TOKEN = "INSERISCI_IL_TUO_TOKEN"
